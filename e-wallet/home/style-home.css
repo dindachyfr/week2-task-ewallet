@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,600;1,400;1,800&display=swap');
+
+*{
+   font-family: Nunito Sans;
+   font-style: normal;
+   margin: 0;
+}
+.container {
+    position: absolute;
+     top: 0px;
+     left:0px;
+     height: 1080px;
+     width: 100vw;
+     background: #fdfbfb;
+ }
+
+ .recheader{
+   background: #FFFFFF;
+   box-shadow: 0px 4px 20px #dfd7d7;
+   border-radius: 15px;
+   height: 11%;
+ }
+
+.recmenuleft{
+   position: absolute;
+   width: 409px;
+   height: 68%;
+   left: 1%;
+   right: 70.83%;
+   top: 14%;
+   bottom: 10.72%;
+   background: #FFFFFF;
+   box-shadow: 0px 4px 20px #e5cbcb;
+   border-radius: 11px;
+}
+
+.recbalance{
+   position: absolute;
+   width: 70%;
+   height: 20%;
+   left: 24%;
+   top: 12%;
+   background: #6379F4;
+   border-radius: 20px;  
+}
+
+.rechistory{
+   position: absolute;
+   width: 29%;
+   height: 49%;
+   left: 65%;
+   top: 33%;
+   bottom: 9.72%;
+   background: #FFFFFF;
+   box-shadow: 0px 4px 20px #d9d7d7;
+   border-radius: 11px;
+}
+
+.recmenucenter{
+   position: absolute;
+   width: 39%;
+   height: 49%;
+   left: 24%;
+   top: 33%;
+   background: #ffffff;
+   box-shadow: 0px 4px 20px #d9d7d7;
+   border-radius: 11px;
+}
+
+.recfooter {
+   position: absolute;
+   width: 100%;
+   height: 17%;
+   top: 893px;
+   background: #6379F4;
+   color: white;
+   font-size: 12px;
+}
+
+.tittletext {
+      font-size: 42px;
+      color: #6379F4;
+      position: absolute;
+      top: 3%;
+      left: 10%;
+}
+
+.profpic {
+   left: 72%;
+   position: absolute;
+   top: 3%;
+}
+
+.name {
+   position: absolute;
+   left: 76%;
+   top: 3%;
+   line-height: 29px;
+   color: rgba(58, 61, 66, 0.9);
+   font-size: 20px;
+}
+
+.ringbell {
+   position: absolute;
+   left: 86%;
+   top: 4%;
+}
+
+.menuleft{
+   font-size: 25px;
+   left: 27%;
+   width: 73%;
+   position: absolute;
+   height: 100%;
+   color: rgba(58, 61, 66, 0.8);
+}
+
+.menuleft img{
+   position: absolute;
+}
+.dashboard {
+   position: absolute;
+   top: 7%;
+   color: #6379F4;
+}
+
+.dashboard img {
+   left: -48%;
+}
+
+.transfer {
+   position: absolute;
+   top: 25%;
+}
+
+.transfer img{
+   left: -63%;
+}
+
+.topup {
+   position: absolute;
+   top: 45%;
+}
+
+.topup img{
+   left: -75%;
+}
+
+.profile {
+   position: absolute;
+   top: 65%;
+}
+
+.profile img{
+   left: -84%;
+}
+
+.logout {
+   position: absolute;
+   top: 90%;
+}
+
+.logout img{
+   left: -65%;
+}
+
+.balance{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+}
+
+.balancetext {
+   font-size: 22px;
+   line-height: 99px;
+   top: 3%;
+   left: 3%;
+   position: absolute;
+   color: #E0E0E0;
+}
+
+.balanceamount {
+   position: absolute;
+   top: 31%;
+   font-size: 50px;
+   color: #FFFFFF;
+   left: 3%;
+}
+
+.transferbutton{
+      position: absolute;
+      background-color: #808fe1;
+      text-align: center;
+      display: inline-block;
+      color: #FFFFFF;
+      font-size: 20px;
+      padding: 23px 23px 23px 50px;
+      border: solid 3px #ffffff;
+      top: 9%;
+      left: 76%;
+      border-radius: 12px;
+      text-decoration: none;
+  }
+
+.transferbuttonicon {
+   position: absolute;
+   top: 20%;
+   left: 77%;
+}
+
+.topupbutton {
+   position: absolute;
+   background-color: #808fe1;
+   text-align: center;
+   display: inline-block;
+   color: #FFFFFF;
+   font-size: 20px;
+   padding: 24px 23px 23px 60px;
+   border: solid 3px #ffffff;
+   top: 51%;
+   left: 76%;
+   border-radius: 12px;
+   text-decoration: none;
+}
+
+.topupbuttonicon{
+   position: absolute;
+   top: 62%;
+   left: 77%;   
+}
+
+.historytext {
+   position: absolute;
+   width: 182px;
+   height: 25px;
+   left: 5%;
+   top: 3%;
+   font-size: 20px;
+   color: #3A3D42;
+}
+
+a.alltransaction {
+   position: absolute;
+   width: auto;
+   left: 61%;
+   top: 3%;
+   font-size: 18px;
+   text-decoration: none;
+}
+
+.allrecipient {
+   position: absolute;
+   left: 11%;
+   height: 100%;
+}
+
+.transferamount {
+   width: 125px;
+   font-size: 20px;
+   color: #1EC15F;
+   position: absolute;
+   left: 182%;
+   top: 18%;
+}
+
+.recipient1 {
+   top: 11%;
+   width: 150px;
+   position: absolute;
+}
+
+.recipient2{
+   top: 33%;
+   width: 150px;
+   position: absolute;
+
+}
+
+.recipient3 {
+   position: absolute;
+   top: 55%;
+   width: 300px;
+}
+
+.recipient4 {
+   position: absolute;
+   top: 77%;
+   width: 300px;
+}
+
+.subscriptionamount {
+   width: 125px;
+   font-size: 20px;
+   color: #f55549;
+   position: absolute;
+   left: 92%;
+   top: 18%;
+}
+
+.income {
+   position: absolute;
+   top: 3%;
+   left: 5%;
+}
+
+.expense {
+   position: absolute;
+   top: 3%;
+   left: 69%;
+}
+
+.menucentericon {
+   position: absolute;
+   top: 35%;
+   left: 28%;
+}
+
+.footertext{
+   position: absolute;
+   top:43%;
+   width: 100%;
+}
+.websitecredit {
+   position: absolute;
+   left: 8%;
+}
+
+.phonenumberfooter {
+   position: absolute;
+   left: 67%;
+}
+
+h3.websitemail {
+   position: absolute;
+   left: 76%;
+}
