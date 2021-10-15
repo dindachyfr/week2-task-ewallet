@@ -24,10 +24,10 @@
 .recmenuleft{
    position: absolute;
    width: 409px;
-   height: 68%;
+   height: 70%;
    left: 1%;
    right: 70.83%;
-   top: 14%;
+   top: 12%;
    bottom: 10.72%;
    background: #FFFFFF;
    box-shadow: 0px 4px 20px #e5cbcb;
@@ -70,8 +70,8 @@
 .recfooter {
    position: absolute;
    width: 100%;
-   height: 17%;
-   top: 893px;
+   height: 9%;
+   top: 85%;
    background: #6379F4;
    color: white;
    font-size: 12px;
@@ -208,6 +208,14 @@
    left: 77%;
 }
 
+.btn{
+      transition: 0.75s;
+  }
+  
+.btn:hover {
+   box-shadow: 29px -7px 33px #85cae0;
+}
+
 .topupbutton {
    position: absolute;
    background-color: #808fe1;
@@ -313,6 +321,11 @@ a.alltransaction {
    position: absolute;
    top: 35%;
    left: 28%;
+   transition:1s;
+}
+
+.menucentericon:hover{
+   transform: scale(1.5);
 }
 
 .footertext{
@@ -333,4 +346,27 @@ a.alltransaction {
 h3.websitemail {
    position: absolute;
    left: 76%;
+}
+
+.transition-btt{
+   animation-name: slidingbtt;
+   animation-duration: 1.5s;
+   animation-iteration-count: 1;
+}
+
+@keyframes slidingbtt{
+   0% {
+      transform: translate(0px, 100px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.change{
+   cursor: pointer;
+}
+
+.change:hover{
+   color: #6379F4
 }
