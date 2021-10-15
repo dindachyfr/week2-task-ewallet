@@ -30,21 +30,12 @@
      background-color:  white;
  } 
  
- .phoner{
-     position: absolute;
-     width: 278.51px;
-     height: 536.47px;
-     left: 352.26px;
-     top: 128px;
+ .phone-icon{
+    position: absolute;
+    left: 21%;
+    top: 10%;
  }
- 
- .phonel{
-     position: absolute;
-     width: 278.51px;
-     height: 530.28px;
-     left: 115px;
-     top: 167.05px;;
- }
+
  
  .overlay{
     position: absolute;
@@ -166,7 +157,8 @@ input{
     color: #7a7575;
     border-radius: 12px;
     font-size: 18px;
-    line-height: 25px;
+    text-decoration: none;
+
     }
 
 .logintext{
@@ -203,7 +195,25 @@ input{
         color: #a79898cc;
     }
 
-    a{
-        text-decoration: none;
-        color: #88888F;
+.transition-ltr-1s{
+    animation-name: slidingltr;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes slidingltr {
+    0% {
+      transform: translate(-100px, 0px);
     }
+    100% {
+        transform: translate(0px, 0px);
+    }
+  }
+  
+.btn{
+    transition: 0.75s;
+}
+  .btn:hover{
+    box-shadow: -3px -1px 33px #85cae0;
+}
