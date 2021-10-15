@@ -31,21 +31,11 @@
     background-color:  white;
 } 
 
-.phoner{
+.phone-icon{
     position: absolute;
-    width: 278.51px;
-    height: 536.47px;
-    left: 352.26px;
-    top: 128px;
-}
-
-.phonel{
-    position: absolute;
-    width: 278.51px;
-    height: 530.28px;
-    left: 115px;
-    top: 167.05px;;
-}
+    left: 21%;
+    top: 10%;
+ }
 
 .overlay{
     position: absolute;
@@ -153,7 +143,7 @@ a{
     background: #cccc;
     border-radius: 12px;
     font-size: 18px;
-    line-height: 25px;
+    text-decoration: none;
     }
 
 .text1l{
@@ -212,4 +202,27 @@ a{
     font-size: 16px;
     line-height: 30px;
     color: #a79898cc;
+}
+
+.transition-ltr-1s{
+    animation-name: slidingltr;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes slidingltr {
+    0% {
+      transform: translate(-100px, 0px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+  }
+  
+.btn{
+    transition: 0.75s;
+}
+  .btn:hover{
+    box-shadow: -3px -1px 33px #85cae0;
 }
