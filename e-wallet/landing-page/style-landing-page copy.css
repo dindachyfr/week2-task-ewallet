@@ -8,7 +8,7 @@
 }
 
 .container{
-    width: 1440px;
+    width: 100vw;
     height: 4630px;
     background-color:#FFFFFF;
     position: absolute;
@@ -366,7 +366,7 @@
 }
 
 .btn:hover {
- box-shadow: 29px -7px 33px #85cae0;
+ box-shadow: 15px -7px 33px #85cae0;
 }
 
 .scale{
@@ -375,4 +375,10 @@
  
 .scale:hover{
     transform: scale(1.2);
+}
+
+.box-4:hover{
+    
+ box-shadow: 15px -7px 33px #85cae0;
+
 }
