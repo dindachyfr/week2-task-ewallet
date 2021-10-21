@@ -6,279 +6,172 @@
    margin: 0;
 }
 .container {
-    position: absolute;
-     top: 0px;
-     left:0px;
-     height: 1080px;
-     width: 1920px;
-     background: #fdfbfb;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   height: 100vh;
+   width: 100vw;
+   background: #fdfbfb;
+   display: flex;
+   flex-direction: column;
  }
-.recheader{
-background: #FFFFFF;
-box-shadow: 0px 4px 20px #dfd7d7;
-border-radius: 15px;
-height: 11%;
+
+ .recheader {
+   flex: 0.8;
+   background: #FFFFFF;
+   box-shadow: 0px 4px 20px #dfd7d7;
+   border-radius: 15px;
+   display: flex;
+}
+
+.wrapper-nav{
+   width: 80%;
+   height: 100%;
+   margin: 0 10% 0 10%;
+}
+
+.nav-left {
+      flex: 1;
+      justify-content: flex-start;
+      display: flex;
+  }
+
+.nav-right{
+   flex: 1;
+   display: flex;
+   justify-content: flex-end;
+   flex-direction: row;
+   margin-right: 90px;
+   align-items: center;
+}
+
+.container-content{
+   flex: 4;
+   display:flex;
 }
 
 .recmenuleft{
-position: absolute;
-width: 409px;
-height: 68%;
-left: 1%;
-right: 70.83%;
-top: 14%;
-bottom: 10.72%;
-background: #FFFFFF;
-box-shadow: 0px 4px 20px #e5cbcb;
-border-radius: 11px;
+   flex: 0.5;
+   background: #FFFFFF;
+   box-shadow: 0px 4px 20px #e5cbcb;
+   border-radius: 25px;
+   margin: 15px 15px 15px 90px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 }
 
-.recbalance{
-position: absolute;
-width: 70%;
-height: 20%;
-left: 24%;
-top: 12%;
-background: #6379F4;
-border-radius: 20px;  
+.recmenuleft img {
+   margin-right: 31px;
 }
 
-.rechistory{
-    position: absolute;
-    width: 65%;
-    height: 68%;
-    left: 25%;
-    top: 14%;
-    bottom: 9.72%;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 20px #d9d7d7;
-    border-radius: 11px;
-}
-
-.recmenucenter{
-position: absolute;
-width: 39%;
-height: 49%;
-left: 24%;
-top: 33%;
-background: #ffffff;
-box-shadow: 0px 4px 20px #d9d7d7;
-border-radius: 11px;
-}
-
-.recfooter {
-position: absolute;
-width: 100%;
-height: 9%;
-top: 85%;
-background: #6379F4;
-color: white;
-font-size: 12px;
+.wrapper-activity-upper{
+   flex: 2.5;
+   margin: 15px 90px 15px 0;
+   display: flex;
+   flex-direction: column;
 }
 
 .tittletext {
-    font-size: 42px;
-    color: #6379F4;
-    position: absolute;
-    top: 3%;
-    left: 10%;
+   font-size: 42px;
+   color: #6379F4;
+   align-items: center;
+   margin-left: 90px;
+   display: flex;
+
 }
 
+.menu{
+   display: flex;
+   padding-left: 30px;
+   margin: 30px 30px 30px 0;
+}
 .profpic {
-    left: 72%;
-    position: absolute;
-    top: 3%;
+   margin-right: 37px;
 }
 
 .name {
-    position: absolute;
-    left: 76%;
-    top: 3%;
-    line-height: 29px;
-    color: rgba(58, 61, 66, 0.9);
-    font-size: 20px;
+   line-height: 29px;
+   color: rgba(58, 61, 66, 0.9);
+   font-size: 20px;
+   margin-right: 37px;
 }
 
-.ringbell {
-    position: absolute;
-    left: 86%;
-    top: 4%;
+
+
+.wrapper-activity{
+   height:70%;
+   padding: 15px 0;
+   display:flex;
+   background-color: #FFFFFF;
 }
 
-.menuleft{
-    font-size: 25px;
-    width: 100%;
-    padding-left: 27%;
-    position: absolute;
+
+
+.rechistory{
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    background-color: #FFF;
     height: 100%;
-    color: rgba(58, 61, 66, 0.8);
+    box-shadow: 0px 4px 20px #dfd7d7;
 }
 
-.menuleft img{
-    position: absolute;
-}
-.dashboard {
-    position: absolute;
-    top: 7%;
-    color: #6379F4;
-}
-
-.dashboard img {
-    left: -48%;
-}
-
-.transfer {
-    position: absolute;
-    top: 25%;
-}
-
-.transfer img{
-    left: -63%;
-}
-
-.topup {
-    position: absolute;
-    top: 45%;
-}
-
-.topup img{
-    left: -75%;
-}
-
-.profile {
-    position: absolute;
-    top: 65%;
-}
-
-.profile img{
-    left: -84%;
-}
-
-.history{
-    width:100%;
-    height:100%;
-}
-
-.logout {
-    position: absolute;
-    top: 90%;
-}
-
-.logout img{
-    left: -65%;
-}
- 
-a.alltransaction {
-    position: absolute;
-    width: auto;
-    left: 61%;
-    top: 3%;
-    font-size: 18px;
-    text-decoration: none;
- }
 
 .allrecipient {
-    position: absolute;
-    left: 6%;
-    top: 6%;
-    width: 94%;
-    height: 94%;
-    }
- 
-.recipientname {
-    top: 12%;
-    width: 100%;
-    position: absolute;
-    left: 6%;
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   justify-content: space-evenly;
+   margin: 15px;
 }
+
+.recipient {
+    display: flex;
+    flex-direction: row;
+    margin: 0 30px 0 30px;
+    justify-content: space-between;
+}
+
 .transferamount {
-    width: 125px;
-    font-size: 20px;
-    color: #1EC15F;
-    position: absolute;
-    left: 61%;
-    top: 18%;
-}
-
-.recipient1 {
-    top: 11%;
-    width: 100%;
-    position: absolute;
-}
-
-.recipient2{
-    top: 33%;
-    width: 100%;
-    position: absolute;
-
-}
-
-.recipient3 {
-    position: absolute;
-    top: 55%;
-    width: 100%;
-}
-
-.recipient4 {
-    position: absolute;
-    top: 77%;
-    width: 100%;
+   font-size: 20px;
+   color: #1EC15F;
 }
 
 .subscriptionamount {
-    width: 125px;
-    font-size: 20px;
-    color: #f55549;
-    position: absolute;
-    left: 61%;
-    top: 18%;
+   font-size: 20px;
+   color: red;
 }
 
-.footertext{
-    position: absolute;
-    top:43%;
-    width: 100%;
-}
-.websitecredit {
-    position: absolute;
-    left: 8%;
+.recfooter{
+   flex: 0.8;
+   display: flex;
+   background-color: #6379F4;
+   
 }
 
-.phonenumberfooter {
-    position: absolute;
-    left: 67%;
+.footertext {
+   display: flex;
+   width: 100%;
+   justify-content: space-around;
+   align-items: center;
+   color: #ffffff;
 }
 
-.websitemail {
-    position: absolute;
-    left: 76%;
+.change:hover{
+   cursor: pointer;
+   border-left: solid 5px #6379F4;
+   color: #6379F4;
 }
 
-.historytext {
-    position: absolute;
-    top: 5%;
-    left: 6%;
-    color: #3A3D42;
+figcaption.recipientname {
+    margin-left: 38px;
 }
 
-.historyweek {
-    position: absolute;
-    top: 7%;
-    font-size: 14px;
-    color: #7A7886;
+.recipient figure {
+    display: flex;
 }
 
-.historymonth {
-    position: absolute;
-    top: 51%;
-    font-size: 14px;
-    color: #7A7886;
+.history-upper {
+    margin: 30px 0 0 30px;
 }
-
-.change{
-    cursor: pointer;
- }
- 
- .change:hover{
-    color: #6379F4
- }
