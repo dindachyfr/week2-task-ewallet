@@ -24,7 +24,7 @@
 .recbalance {
     justify-content: space-between;
     flex:0.1;
-    width: 26rem;
+    width: 23rem;
     display: flex;
     background-color: transparent;
 }
