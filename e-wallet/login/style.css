@@ -200,6 +200,8 @@ a{
     margin-top: 67px;
 }
 
-.titletext.mobile, .text1r.mobile, .text2r.mobile{
-    display:none;
-}
+@media screen and (min-width: 481px) {
+    .mobile{
+       display:none;
+    }
+    }
