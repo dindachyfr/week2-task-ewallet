@@ -331,3 +331,9 @@
         transform: translate(0px, 0px);
     }
 }
+
+@media screen and (min-width: 481px) {
+.mobile{
+   display:none;
+}
+}
