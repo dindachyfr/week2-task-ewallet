@@ -8,89 +8,106 @@
     <link rel= "stylesheet" href="style-transfer-blank.css">
 </head>
 <body>
- <div class='container'>
+    <main class='container'>
 
-    <nav class='recheader'>        
-
-        <h1 class='tittletext'>Zwallet</h1>
-
-        <figure class='profpic'>
-            <img src='NangIs-icon.svg'/>
-        </figure>
-
-       <figure class = 'ringbell'>
-           <img src='bell-icon.svg'/>
-       </figure>
-
-        <figcaption class='name'>
-            Nanang Ismail</br>
-            0857-8279-xxxx
-        </figcaption>
-
-
-    </nav>
-
-     <section class='recmenuleft'>
-         <main class='menuleft'>
-            <figure class='dashboard change'>Dashboard
-                <img src='dashboard-icon.svg'/>
-            </figure>
+        <nav class='recheader'>        
+                <section class='nav-left'>
+                <h1 class='tittletext'>Zwallet</h1>
+            </section>
+            
+            <section class='nav-right'>
+                    <figure class="profpic">
+                        <img src="NangIs-icon.svg">
+                    </figure>
+                    <figcaption class="name">
+                        Nanang Ismail<br>
+                        0857-8279-xxxx
+                    </figcaption>
+            
+                   <figure class="ringbell">
+                       <img src="bell-icon.svg">
+                   </figure>
     
-            <figure class= 'transfer change'>Transfer
-                <img src='transfer-icon.png'/>
-            </figure>
+            </section>
     
-            <figure class='topup change'>Top Up
-                <img src='topup-icon.png'/>
-            </figure>
     
-            <figure class='profile change'>Profile
-                <img src='profile-icon2.png'/>
-            </figure>
     
-            <figure class='logout change'>Log Out
-                <img src='logout-icon.png'/>
-            </figure>
+        </nav>
+    
+         <main class='container-content'>
+            <section class='recmenuleft'>
+                    <figure class='menu change'>
+                        <img src='dashboard-icon.svg'/>
+                        <h1 >Dashboard</h1>
+                    </figure>
+            
+                    <figure class= 'menu change'>
+                        <img src='transfer-icon.png'/>
+                        <h1 style='color:#6379F4'>Transfer</h1>
+                    </figure>
+            
+                    <figure class='menu change'>
+                        <img src='topup-icon.png'/>
+                        <h1>Top Up</h1>
+                    </figure>
+            
+                    <figure class='menu change'>
+                        <img src='profile-icon2.png'/>
+                        <h1>Profile</h1>
+                    </figure>
+            
+                    <figure class='menu change'>
+                        <img src='logout-icon.png'/>
+                        <h1>Log Out</h1>
+                    </figure>
+           </section>
+    
+           <section class='wrapper-activity-upper'>
+                    <section class='rectransfer'>
+                        <div class='transfer-upper'>
+                            <h1>Transfer Money</h1>
+                            <div class='recipient'>
+                                <figure>
+                                    <img src='NangIs-icon.svg'/>
+                                    <figcaption class='recipientname'>Samuel Suhi</br>0872-3827-1726</figcaption>
+                                </figure>
+                            </div>
+                
+                        </div>
+                        
+                        <div class='transfer-lower'>
+                            <p class='text-transfer-lower'>Type the amount you want to transfer and then
+                                press continue to the next steps.</p>
+                            <div class='input-amount'>
+                                <input placeholder="0.00" type="number" name="Money Input" id="money" size="10">
+                            </div>
+                            <p class='available-balance'>Rp120.000 Available</p>
+                            <div class='input-notes'>
+                                <div class='wrapper-input-notes'>
+                                    <img src='note-icon.svg'/>
+                                    <input placeholder="Add some notes" type='text'>
+                                </div>
+
+                            </div>
+                            <div class='continue'>
+                                <button class='continue-button'>Continue</button>
+                            </div>
+                        </div>
+                    </section>
+
+           </section>
+         
+    
+    
         </main>
-    </section>
 
-     <div class='rechistory'>
-        <h1 class='title-transfer-box'>Transfer Money</h1>
-        
-         <div class='allrecipient'>
-            <div class='recipient1 boxrecipient'>
-                <img src='NangIs-icon.svg'/>
-                <div class='recipientname'>Samuel Suhi</div>
-                <div class='accountnumber'>+62 813-8492-9994</div>
+        <footer class='recfooter'>
+            <div class='footertext'>
+                <h3 class='websitecredit'>2020 Zwallet. All right reserved.</h3>
+                <h3 class='phonenumberfooter'>0857-8279-xxxx</h3>
+                <h3 class='websitemail'>contact@zwallet.com</3>
                 </div>
-
-            <h3 class='text-allrecipient'>Type the amount you want to transfer and then</br>
-                press continue to the next steps.</h3>
-
-            <div class='input-transfer'>
-                    <input type="number" placeholder="0.00"/>
-                </div>
-
-            <h2 class= 'available-balance-text'>Rp120.000 Available</h2>
-            <div class='input-transfer-notes'>
-                <input type="text" placeholder="Add some notes"/>
-                <img src='note-icon.svg'/>
-            </div>
-
-            <div class='continue-button btn'>Continue</div>
-            </div>
-
-
-
-     </div>
-
-     <footer class='recfooter'>
-         <div class='footertext'>
-            <h3 class='websitecredit'>2020 Zwallet. All right reserved.</h3>
-            <h3 class='phonenumberfooter'>0857-8279-xxxx</h3>
-            <h3 class='websitemail'>contact@zwallet.com</3>
-            </div>
-        </footer>
- </div>
+        </footer>        
+    </main>
 </body>
 </html>
