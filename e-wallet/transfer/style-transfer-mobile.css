@@ -2,6 +2,7 @@
 .container{
     overflow: auto;
     background-color: #E5E5E5;
+    width: 23.4rem;
 }    
 
 .recmenuleft, .recfooter, .recheader{
