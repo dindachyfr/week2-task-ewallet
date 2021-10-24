@@ -15,6 +15,11 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
+
+.nav-left {
+    margin: auto 0.5rem;
+}
+
 .titletext.mobile {
     font-size: 2rem;
     margin: auto 1.8rem;
