@@ -1,5 +1,9 @@
 @media screen and (min-width: 240px) and (max-width: 480px) {
 
+    .container{
+        width:23.4rem
+    }
+
 .recheader, .recmenuleft,.recfooter, .text-transfer-lower{
     display: none;
 }
