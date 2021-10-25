@@ -49,7 +49,7 @@
 .allrecipient h1 {
     color: #514F5B;
     font-size: 1.5rem;
-    margin-left:1rem;
+    margin: .5rem;
 }
 
 .allrecipient{
@@ -58,8 +58,8 @@
 
 .recipient {
     background-color: #ffffff;
-    width: 22rem;
-    margin:0;
+    width: 19rem;
+    margin: auto;
 }
 
 
